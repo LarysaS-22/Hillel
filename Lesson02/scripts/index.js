@@ -2,15 +2,9 @@ console.log("Hello, World!");
 
 //1.Отримати від користувача 3 рядки та вивести їх у довільному порядку однією командою (конкатенація)
 
-let guestName;
-let guestColor;
-let guestFood;
-
-guestName = prompt("Hello! Please enter your name", "");
-
-guestColor = prompt("Please enter your favorite color", "");
-
-guestFood = prompt("Please enter favorite food", "");
+const guestName = prompt("Hello! Please enter your name", "");
+const guestColor = prompt("Please enter your favorite color", "");
+const guestFood = prompt("Please enter favorite food", "");
 
 const guest = guestName+" likes  "+guestColor+" color and "+guestFood+"!";
 
